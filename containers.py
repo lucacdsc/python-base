@@ -8,7 +8,7 @@ def xpto(*args):
 
 xpto(2,3,4,5,6)
 
-#iter
+#iteração em lista
 for e in [1,2,3]:
     print(e)
 
@@ -17,3 +17,16 @@ a = [1,2,3,4,5,6]
 print(a)
 a.append(56)
 print(a)
+
+#tuplas - gosto de lista, textura de lista mas não é uma lista.
+tuple = (1,2,3,4)
+print(tuple)
+
+#conjuntos - Funcionam de fato como conjuntos. Com os métodos de união, intersecção etc.
+conj = {1,2,3,4}
+
+#dicionário - é parecido com um json
+pessoa = {
+    'nome':'Luca',
+    'musica':'Piloto'
+}
