@@ -24,3 +24,7 @@ def seleciona(op: str) -> Callable:
         'sub': lambda x, y: x - y,
     }
     return ops[op]
+
+def validate(x,y):
+    if isinstance(x,int) and isinstance(y,int):
+        return x + y
